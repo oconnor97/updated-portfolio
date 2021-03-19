@@ -10,7 +10,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.8fr 1.2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1.5fr 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
       "Header Header Header Header"
@@ -37,7 +37,7 @@
     height: 100px;
 }
 
-
+ul.nav a:hover { color: var(--text-color) !important; }
 
   .navbar-light .navbar-brand {
     color: var(--text-color);
@@ -62,7 +62,9 @@
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;
-    float: clear
+    float: clear;
+    flex-direction: column;
+   
 }
 
 #quote {
@@ -71,8 +73,10 @@
 
 #my-photo {
     align-self: center;
-    justify-self: left;
+    justify-content: space-around;
     border-radius: 50%;
+    min-width: 10vw;
+    max-width: 15vw;
 }
 
 h2 {
@@ -81,4 +85,39 @@ h2 {
     width: 50%;
     border-bottom: 2px solid goldenrod;
     margin: auto;
+}
+
+.textContent {
+    color: var(--text-color);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.customCard {
+    
+    background-color: var(--text-color);
+    margin: 10px;
+    min-width: 30vw;
+    max-width: 35vw;
+    border-radius: 15px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.col {
+    flex: 1 1 0%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    
 }
