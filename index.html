@@ -12,24 +12,27 @@
     <title>Michael O'Connor</title>
 </head>
 <body>
+    <!-- The page is set up into a grid -->
     <div class="grid-container">
         <div class="Header">
+            <!-- A custom nav bar from bootstrap -->
             <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Michael O'Connor</a>
+                    <!-- Links to my gitHub, resume and the other sections of the page -->
+                  <a class="navbar-brand" href="https://github.com/oconnor97" target="_blank">Michael O'Connor</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
+                        <a class="nav-link" aria-current="page" href="#aboutMe">About Me,</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#myWork">My Work</a>
+                        <a class="nav-link" href="#myWork">My Work,</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#contactMe">Contact Me</a>
+                        <a class="nav-link" href="#contactMe">Contact Me,</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Resume</a>
@@ -39,22 +42,25 @@
                 </div>
               </nav>
         </div>
+        <!-- an image that contains both my current family photo and inspirational quote -->
         <div class="Background-Image">
             <img src="./assests/images/my-photo.jpg" alt="my family picture" id="my-photo">
             <p id="quote">“Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough.” – Og Mandino</p>
         </div>
+        <!-- The start of the main content, starting with the about me section -->
         <div class="About-Me" id="aboutMe">
             <h2>About Me</h2>
             <p class="textContent">My name is Michael O'Connor and I am a 28 year old Junior Developer from Columbus, Ohio.  I have a passion for continued growth and being in a field that is always growing.<br> 
                 My previous background was in the printing industry where I wrote programs for machinery and solved problems to make the company more efficient.  I love music and it is my goal to find job that allows me to work around the music industry while programming!</p>
         </div>
+        <!-- custom cards to contain my recent projects with links to their deployed sites -->
         <div class="My-Work" id="myWork">
             <h2>My Work</h2>
             <div class="container">
                 <div class = "container col col-sm-10 col-md-8">
                     <div class='row' class="workContainer">
                         <div class="col customCard">
-                            <h4>Events Eats</h4>
+                            <h4 class="card-header">Events Eats</h4>
                         <a href="https://schimmoellerm.github.io/events-eats/" target="_blank"><img src="./assests/images/Events_Eats.gif" alt="Screenshot of the working events eats app"></a>
                         <p>Easily find an event to attend and get a list of restaraunts within a radius of the event venue.</p>
                         </div>
@@ -64,7 +70,7 @@
                 <div class = "container col col-sm-10 col-md-8">
                     <div class='row' class="workContainer">
                         <div class="col customCard">
-                            <h4>Code Quiz</h4>
+                            <h4 class="card-header">Code Quiz</h4>
                         <a href="https://oconnor97.github.io/code-quiz/" target="_blank"><img src="./assests/images/code-quiz.png" alt="Screenshot of the working code quiz"></a>
                         <p>Take this quiz to test you code knowledge and try to beat your high scores!</p>
                         </div>
@@ -74,7 +80,7 @@
                 <div class = "container col col-sm-10 col-md-8">
                     <div class='row' class="workContainer">
                         <div class="col customCard">
-                            <h4>Day Planner</h4>
+                            <h4 class="card-header">Day Planner</h4>
                         <a href="https://oconnor97.github.io/schedule-your-day/" target="_blank"><img src="./assests/images/active-screenshot.png" alt="Screenshot of the working day planner"></a>
                         <p>Use this app to schedule your daliy activities!</p>
                         </div>
@@ -84,7 +90,7 @@
                 <div class = "container col col-sm-10 col-md-8">
                     <div class='row' class="workContainer">
                         <div class="col customCard">
-                            <h4>Weather Tracker</h4>
+                            <h4 class="card-header">Weather Tracker</h4>
                         <a href="https://oconnor97.github.io/check-the-weather/" target="_blank"><img src="./assests/images/Weather-Tracker.png" alt="Screenshot of the working weather tracker"></a>
                         <p>Quickly check the weather of any city, current forecast and 5-day!</p>
                         </div>
@@ -93,7 +99,26 @@
                 </div>
             </div>
         </div>
-        <div class="Footer" id="contactMe"></div>
+        <!-- This section holds all of my contact information -->
+        <div class="Footer" id="contactMe">
+            <h2> Contact Me</h2>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">740-814-1289</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/michael.oconnor.9843/" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://github.com/oconnor97" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/michael-o-connor-b79005200/" target="_blank">Linkedin</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
       </div>
     
 </body>
