@@ -1,0 +1,84 @@
+:root {
+    --background-color: rgb(36, 33, 33);
+    --text-color: goldenrod;
+  }
+  body {
+      background-color: var(--background-color);
+  }
+ 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1.2fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Header Header Header Header"
+      "Background-Image Background-Image Background-Image Background-Image"
+      "About-Me About-Me About-Me About-Me"
+      "My-Work My-Work My-Work My-Work"
+      "My-Work My-Work My-Work My-Work"
+      "Footer Footer Footer Footer";
+  }
+  .Header { grid-area: Header;}
+  .Background-Image { grid-area: Background-Image; }
+  .About-Me { grid-area: About-Me; }
+  .My-Work { grid-area: My-Work; }
+  .Footer { grid-area: Footer; }
+
+
+  .container-fluid {
+    background-color: var(--background-color);
+    height: 100px;
+
+  }
+
+.navbar-custom {
+    height: 100px;
+}
+
+
+
+  .navbar-light .navbar-brand {
+    color: var(--text-color);
+    font-size: 32px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--text-color);
+    font-size: 22px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+.Background-Image {
+    height: 220px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./images/honeycomb2.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    float: clear
+}
+
+#quote {
+    background-color: goldenrod;
+}
+
+#my-photo {
+    align-self: center;
+    justify-self: left;
+    border-radius: 50%;
+}
+
+h2 {
+    color: var(--text-color);
+    text-align: center;
+    width: 50%;
+    border-bottom: 2px solid goldenrod;
+    margin: auto;
+}
