@@ -6,13 +6,13 @@ This is an updated poersonal portfolio page designed to show employers applicati
 
 Hopefully when presented with this page, people will get a look into who I am as a person and emplyoee!
 
-![Working screenshot](assests\images\updated-portfolio.png)
+![Working screenshot](./assests\images\updated-portfolio.png)
 
 ## Teachnologies 
 
-*HTML
-*CSS
-*CSS Grid
-*Bootstrap
+* HTML
+* CSS
+* CSS Grid
+* Bootstrap
 
 [Deployed portfolio](https://oconnor97.github.io/updated-portfolio/)
