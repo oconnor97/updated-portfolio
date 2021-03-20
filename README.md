@@ -6,7 +6,7 @@ This is an updated poersonal portfolio page designed to show employers applicati
 
 Hopefully when presented with this page, people will get a look into who I am as a person and emplyoee!
 
-![](./assests\images\updated-portfolio.png)
+![](assests\images\updated-portfolio.png)
 
 ## Teachnologies 
 
