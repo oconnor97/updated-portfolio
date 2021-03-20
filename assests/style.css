@@ -33,7 +33,14 @@
     height: 100px;
 
   }
+.navbar-toggler {
+    color: goldenrod !important;
+}
 
+
+.collapse:not(.show) {
+   display: inherit;
+}
 .navbar-custom {
     height: 100px;
 }
